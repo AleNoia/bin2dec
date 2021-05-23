@@ -5,7 +5,7 @@
 
 // ======================================== [BUTTONS]
 .btn {
-    height: 40px;
+    height: 47px;
     padding: 0 1.7em;
     cursor: pointer;
     font-size: 14px;
@@ -15,59 +15,21 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
 
-    i {
-        color: hsl(0, 0%, 100%) !important;
+    i{
+        color: black;
+        font-size: 24px;
     }
 
     &:hover {
-        transform: scale(0.97);
+        transform: scale(1.05);
     }
 
     &:active {
-        transform: scale(0.85);
+        transform: scale(0.95);
     }
 }
 
 // ========== [PROMPT]
 .btn-prompt {
     background-color: $color-1;
-}
-
-// ========== [PRIMARY]
-.btn-primary {
-    background-image: $color-primary;
-}
-
-// ========== [SECONDARY]
-.btn-secondary {
-    background-image: $color-secondary;
-    color: #343a40;
-}
-
-// ========== [SUCCESS]
-.btn-success {
-    background-image: $color-success;
-}
-
-// ========== [DANGER]
-.btn-danger {
-    background-image: $color-danger;
-}
-
-// ========== [TO UP]
-.btn-up {
-
-    &:hover {
-        box-shadow: $shadow-1;
-        transform: scale(1.1);
-
-        i {
-            transform: scale(1.2);
-        }
-    }
-
-    &:active {
-        transform: scale(0.99);
-        outline: none;
-    }
 }
