@@ -8,7 +8,7 @@ body {
     background-color: $color-2;
 
     main {
-        height: 93vh;
+        height: 90vh;
         @include is-flex-column(center, flex-start);
     }
 
@@ -16,8 +16,8 @@ body {
         height: 40vh;
         font-family: 'Roboto Mono', monospace;
         @include is-flex-column(center, flex-start);
-        
-        .footer-buttons{
+
+        .footer-buttons {
             display: flex;
             flex-wrap: wrap;
             flex: 0 1 150px;
@@ -31,9 +31,21 @@ body {
         border-bottom: 2px solid $color-1;
     }
 
+    .resultContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .result {
         color: $color-1;
         font-size: 28px;
+    }
+
+    .copy {
+        top: 0;
+        right: 0;
+        height: 100%;
+        // width: 100%;
     }
 
     .title {
@@ -80,5 +92,29 @@ body {
         background-color: $color-2;
         color: $color-1;
         text-align: center;
+    }
+
+    // ========== [LABEL BTN]
+    .label-btn {
+        height: 25px;
+        width: max-content;
+        padding: 0 1em;
+        position: absolute;
+        top: -15px;
+        left: 120px;
+        color: $color-1;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: $transition-1;
+        border: none;
+        cursor: pointer;
+        background-color: $color-2;
+
+
+        &:hover{
+            background-color: $color-1;
+            color: $color-2;
+        }
     }
 }

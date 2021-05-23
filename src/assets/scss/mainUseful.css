@@ -84,8 +84,8 @@ table {
 }
 
 .btn:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
 }
 
 .btn:active {
@@ -95,6 +95,11 @@ table {
 
 .btn-prompt {
   background-color: #00ff00;
+}
+
+.convert {
+  width: 76.5%;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .m-0 {
@@ -551,7 +556,7 @@ body {
 }
 
 body main {
-  height: 93vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -605,9 +610,24 @@ body .a {
   border-bottom: 2px solid #00ff00;
 }
 
+body .resultContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body .result {
   color: #00ff00;
   font-size: 28px;
+}
+
+body .copy {
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
 body .title {
@@ -679,5 +699,30 @@ body .label {
   background-color: black;
   color: #00ff00;
   text-align: center;
+}
+
+body .label-btn {
+  height: 25px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 1em;
+  position: absolute;
+  top: -15px;
+  left: 120px;
+  color: #00ff00;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: ease 0.15s;
+  transition: ease 0.15s;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+body .label-btn:hover {
+  background-color: #00ff00;
+  color: black;
 }
 /*# sourceMappingURL=mainUseful.css.map */

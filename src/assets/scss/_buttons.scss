@@ -13,13 +13,13 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
 
-    i{
+    i {
         color: black;
         font-size: 24px;
     }
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(0.97);
     }
 
     &:active {
@@ -30,4 +30,10 @@
 // ========== [PROMPT]
 .btn-prompt {
     background-color: $color-1;
+}
+
+// ========== [CONVERT]
+.convert {
+    width: 76.5%;
+    font-family: 'Roboto Mono', monospace;
 }

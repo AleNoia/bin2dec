@@ -9,32 +9,54 @@ function bin2dec() {
         this.listenConvertEvent();
         this.listenEnter();
     }
-    
+
     // ======================================== [LISTEN THE CONVERT EVENT]
     this.listenConvertEvent = () => {
         document.addEventListener('click', e => {
             const el = e.target;
             if (el.classList.contains('convert')) this.convert();
+            if (el.classList.contains('copy')) this.copyResult();
         })
     }
 
-    // ======================================== [LINTER ENTER TO CALL CONVERT FUNCTION]
+    // ======================================== [LISTEN ENTER TO CALL CONVERT FUNCTION]
     this.listenEnter = () => {
         document.addEventListener('keyup', e => {
             if (e.keyCode === 13) this.convert()
+            if (e.keyCode === 67) this.copyResult()
         })
     }
 
     // ======================================== [CONVERT FUNCTION]
     this.convert = () => {
         let bin = this.binSeletor.value
-        for (var i = 0; i < bin.length; i++) {
-            // CONVERT
-            dec = dec + parseInt(bin[i]) * Math.pow(2, bin.length - 1 - i); // CONVERT
+        let test = /^[01]+$/g.test(bin);
+
+        if (!test) {
+            this.resSelector.value = "Enter only 1 or 0";
+            return;
+        }
+
+        try {
+            for (var i = 0; i < bin.length; i++) {
+                // CONVERT
+                dec = dec + parseInt(bin[i]) * Math.pow(2, bin.length - 1 - i);
+            }
+        } catch {
+            this.resSelector.value = "Error"
         }
         // PUTTING RESULTS IN THE DIV
-        this.resSelector.innerHTML = dec 
+        this.resSelector.value = dec
     }
+
+    // ======================================== [COPY]
+    this.copyResult = () => {
+        let copyValue = document.querySelector('.result').value; // Result div
+        console.log(copyValue)
+        copyValue.select();
+        document.execCommand('copy');
+    }
+
 }
 
 const binTwoDec = new bin2dec();
