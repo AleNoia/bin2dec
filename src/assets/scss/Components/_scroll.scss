@@ -1,0 +1,20 @@
+// ======================================== [IMPORTS]
+@import '../colors';
+
+// ======================================== [SCROLL]
+@mixin scroll-1() {
+  &::-webkit-scrollbar {
+    width: .5em;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: .7em;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background-image: $gradient-1;
+    cursor: pointer;
+  }
+}
