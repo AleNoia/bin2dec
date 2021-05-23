@@ -14,16 +14,3 @@
     align-items: $align;
     justify-content: $justify;
 }
-
-// ========== [IS-FLEX-SELF]
-@mixin is-flex-self($align, $justify) {
-    align-self: $align;
-    justify-self: $justify;
-}
-
-// ========== [IS-FLEX]
-.is-flex{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}

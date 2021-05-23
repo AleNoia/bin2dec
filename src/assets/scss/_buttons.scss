@@ -1,5 +1,4 @@
 // ======================================== [IMPORTS]
-@import './_shadow.scss';
 @import './_colors.scss';
 @import './_transition.scss';
 
@@ -11,7 +10,6 @@
     font-size: 14px;
     border: none;
     transition: $transition-1;
-    box-shadow: $shadow-1;
     color: rgb(0, 0, 0);
     font-weight: bold;
 
