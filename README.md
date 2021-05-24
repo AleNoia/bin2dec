@@ -86,6 +86,9 @@ this.convert = () => {
 ```
 * The result will come out in the second input
 * You can copy the result
+
+ ![image](https://user-images.githubusercontent.com/82424777/119283158-88790d80-bc12-11eb-84fa-49092da4bf9b.png)
+
 ```javascript
 // ======================================== [COPY]
 this.copyResult = () => {
