@@ -29,6 +29,7 @@ function bin2dec() {
 
     // ======================================== [CONVERT FUNCTION]
     this.convert = () => {
+        dec = 0
         let bin = this.binSeletor.value
         let test = /^[01]+$/g.test(bin);
 
