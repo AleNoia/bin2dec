@@ -2,7 +2,7 @@
 
 Bin2Dec allows the user to enter binary digits, 0's and 1's, and then displays its decimal equivalent, in any sequence and then displays its decimal equivalent.
  
-[App-idea](https://github.com/florinpop17/app-ideas) repository project / **Tier: beginner**
+[App-ideas](https://github.com/florinpop17/app-ideas) repository project / **Tier: beginner**
 
 If you want to contact, mail me or send a message on Twitter
 
