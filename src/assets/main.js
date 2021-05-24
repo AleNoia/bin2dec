@@ -32,6 +32,7 @@ function bin2dec() {
         let bin = this.binSeletor.value
         let test = /^[01]+$/g.test(bin);
 
+        // Conditional to accept only 0 and 1
         if (!test) {
             this.resSelector.value = "Enter only 1 or 0";
             return;
@@ -51,8 +52,7 @@ function bin2dec() {
 
     // ======================================== [COPY]
     this.copyResult = () => {
-        let copyValue = document.querySelector('.result').value; // Result div
-        console.log(copyValue)
+        let copyValue = this.resSelector;
         copyValue.select();
         document.execCommand('copy');
     }
