@@ -5,7 +5,7 @@ function bin2dec() {
 
     // ======================================== [START CONVERT]
     this.start = () => {
-        this.binSeletor.focus();
+        this.binSeletor.focus(); //Starts focus on input
         this.listenConvertEvent();
         this.listenEnter();
     }
