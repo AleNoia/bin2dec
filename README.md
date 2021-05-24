@@ -57,8 +57,8 @@ It is a very simple to use Bin2Dec
 
 ![image](https://user-images.githubusercontent.com/82424777/119282290-7ea1db00-bc0f-11eb-9ac3-96a094b0ff29.png)
 
-* Insert the binary number into the first input
-* Click the convert button
+### 1. Insert the binary number into the first input
+### 2. Click the convert button
 ```javascript
 // ======================================== [CONVERT FUNCTION]
 this.convert = () => {
@@ -84,8 +84,8 @@ this.convert = () => {
     this.resSelector.value = dec
 }
 ```
-* The result will come out in the second input
-* You can copy the result
+### 3. The result will come out in the second input
+### 4. You can copy the result
 
  ![image](https://user-images.githubusercontent.com/82424777/119283158-88790d80-bc12-11eb-84fa-49092da4bf9b.png)
 
