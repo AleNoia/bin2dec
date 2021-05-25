@@ -18,7 +18,7 @@ Bin2Dec allows the user to enter binary digits, 0's and 1's, and then displays i
 * 🛠 [Installation](#Installation)
 * 📝 [Utilization](#Utilization)
 * 🤝 [Contributing](#Contributing) 
-* 🛠 [Technologies Used](#TechnologiesUsed)
+* ⚙ [Technologies Used](#TechnologiesUsed)
 * 👋 [Author](#Author)
 * 🧾 [License](#License)
 ***
@@ -104,7 +104,7 @@ this.copyResult = () => {
 ```
 
 ***
-# <a name="TechnologiesUsed"></a>🛠 Technologies used
+# <a name="TechnologiesUsed"></a> ⚙ Technologies used
 
 Technologies that were used in the construction of the project:
 
