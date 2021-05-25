@@ -1,6 +1,8 @@
 # 👨‍💻 Bin2dec
 
-Bin2Dec allows the user to enter binary digits, 0's and 1's, and then displays its decimal equivalent, in any sequence and then displays its decimal equivalent.
+Bin2Dec allows the user to enter binary digits, 0's and 1's, and then displays its decimal equivalent, in any sequence and then displays its decimal equivalent implemented with JavasCript.
+
+![image](https://user-images.githubusercontent.com/82424777/119282290-7ea1db00-bc0f-11eb-9ac3-96a094b0ff29.png)
  
 [App-ideas](https://github.com/florinpop17/app-ideas) repository project / **Tier: beginner**
 
@@ -54,8 +56,6 @@ git clone https://github.com/AleNoia/bin2dec.git
 # <a name="Utilization"></a>📝 Utilization
 
 It is a very simple to use Bin2Dec
-
-![image](https://user-images.githubusercontent.com/82424777/119282290-7ea1db00-bc0f-11eb-9ac3-96a094b0ff29.png)
 
 ### 1. Insert the binary number into the first input
 ### 2. Click the convert button
