@@ -115,7 +115,12 @@ Technologies that were used in the construction of the project:
 ***
 # <a name="Contributing"></a>🤝 Contributing
 
-[Have a look at our contribution guidelines](https://github.com/unform/unform/blob/main/.github/CONTRIBUTING.md)
+1. Fork the project.
+2. Create a new branch with your changes: ```git checkout -b my-feature```
+3. Save your changes and create a commit message telling you what you did: ```git commit -m" feature: My new feature "```
+4. Submit your changes: ```git push origin my-feature```
+
+> If you have any questions check [this guide](https://github.com/unform/unform/blob/main/.github/CONTRIBUTING.md) on how to contribute
  
 Feel free to contribute 🙂
 
