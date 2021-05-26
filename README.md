@@ -1,13 +1,16 @@
 <h1 align="center">
     👨‍💻 Bin2dec
 </h1>
+
+<p align="center">
+Bin2Dec allows the user to enter binary digits, 0's and 1's, and then displays its decimal equivalent, in any sequence and then displays its decimal equivalent.
+</p>
+
 <p align="center">
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AleNoia/bin2dec?color=%2304D361"> <img alt="Repository size" src="https://img.shields.io/github/repo-size/AleNoia/bin2dec"> <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AleNoia/bin2dec"> <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md">
   <img src="https://img.shields.io/badge/App%20Ideas%20-Beginner-%2304D361">
 </a>
 </p>
-
-Bin2Dec allows the user to enter binary digits, 0's and 1's, and then displays its decimal equivalent, in any sequence and then displays its decimal equivalent.
 
 ![image](https://user-images.githubusercontent.com/82424777/119282290-7ea1db00-bc0f-11eb-9ac3-96a094b0ff29.png)
 
@@ -108,9 +111,9 @@ this.copyResult = () => {
 
 Technologies that were used in the construction of the project:
 
+- [JavaScript](https://www.javascript.com)
 - [HTML](https://html.com)
 - [SCSS](https://sass-lang.com)
-- [JavaSript](https://www.javascript.com)
 
 ***
 # <a name="Contributing"></a>🤝 Contributing
